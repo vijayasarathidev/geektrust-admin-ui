@@ -1,0 +1,35 @@
+/* page footer page button styles*/
+.page-row{ 
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+}
+
+.page-row li {
+    display: inline;
+    text-align: center;
+}
+
+.page-row a {
+    float: left;
+    display: block;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 5px 12px;
+    color: #000;
+    margin-left: -1px;
+    border: 1px solid transparent;
+    line-height: 1.5;
+}
+
+.page-item{
+    padding: 5px;
+}
+.page-item a {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 10px;
+}
+
+

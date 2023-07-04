@@ -1,0 +1,98 @@
+.table {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    padding: 4px;
+}
+
+.table-manual{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.input {
+    width: 100%;
+    border: none;
+    padding: 0 0.5rem;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.table-search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40vw;
+    border: 1px solid;
+    border-radius: 2px;
+    margin: 0.5rem 0;
+}
+
+
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-item {
+    border-radius: 100px;
+    border: none;
+    width: 30px;
+    height: 30px;
+}
+
+
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #a65656;
+    font-weight: bold;
+  }
+  
+  /* Checkbox styles */
+  #selectAll {
+    margin: 0;
+  }
+  
+  /* Actions column styles */
+  .actions {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+
+  /* delete button*/
+
+  .delete-icon{
+    margin-left: 5px;
+    background-color: rgb(231, 12, 12);
+    height: 30px;
+    border: #474b47;
+    border-radius: 5px;
+  }
+
+ /* footer */ 
+.footer{
+    margin-top: 20px;
+}
